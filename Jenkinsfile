@@ -7,7 +7,7 @@ pipeline {
                 scmSkip(deleteBuild: false, skipPattern:'.*\\[ci skip].*')
             }
         }
-    
+     
         stage("test") {
             steps {
                 sh "export"
